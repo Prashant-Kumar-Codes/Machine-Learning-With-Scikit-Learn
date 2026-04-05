@@ -1,0 +1,37 @@
+# Python unnecessary files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python eggs
+*.egg
+*.egg-info/
+.dist-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Exclude data and model files like .csv, .json, .pkl, .parquet files
+*.csv
+*.json
+*.pkl
+*.parquet
+
+# Data folders
+dataset/
+datasets/
+data/
+catboost_info/
