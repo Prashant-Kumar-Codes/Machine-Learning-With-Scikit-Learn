@@ -31,8 +31,9 @@ venv.bak/
 *.pkl
 *.parquet
 
-# Data folders
+# Folders
 dataset/
 datasets/
 data/
 catboost_info/
+lessons/
